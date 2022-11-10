@@ -1,0 +1,19 @@
+{
+  "name": "live_chat_app",
+  "version": "1.0.0",
+  "description": "\"this is a real time chat app where where you can chat with own friends\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon chat.js"
+  },
+  "author": "\"sudhakar kumar\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jade": "^1.11.0",
+    "nodemon": "^2.0.20",
+    "nvm": "^0.0.4",
+    "socket.io": "^4.5.3"
+  }
+}
